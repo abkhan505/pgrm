@@ -1,8 +1,8 @@
-const LocalStrategy = require('passport-local').Strategy
-const mongoose = require('mongoose')
-const User = require('../models/User')
+const LocalStrategy = require('passport-local').Strategy // Strategy used for our log-in authentication
+const mongoose = require('mongoose') // Pulls in Mongoose
+const User = require('../models/User') // Points to /models/user/
 
-module.exports = function (passport) {
+module.exports = function (passport) { // Simply allows usage of log-in authentication to application
   passport.use(new LocalStrategy({ usernameField: 'email' }, (email, password, done) => {
     User.findOne({ email: email.toLowerCase() }, (err, user) => {
       if (err) { return done(err) }

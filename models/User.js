@@ -1,7 +1,7 @@
-const bcrypt = require('bcrypt')
-const mongoose = require('mongoose')
+const bcrypt = require('bcrypt') // Encrypts user password
+const mongoose = require('mongoose') // Inserts mongoose
 
-const UserSchema = new mongoose.Schema({
+const UserSchema = new mongoose.Schema({ // Schema for UserName
   userName: { type: String, unique: true },
   email: { type: String, unique: true },
   password: String

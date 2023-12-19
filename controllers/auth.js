@@ -11,7 +11,7 @@ const User = require('../models/User')
     })
   }
   
-  exports.postLogin = (req, res, next) => {
+  exports.postLogin = (req, res, next) => { // User login
     const validationErrors = []
     if (!validator.isEmail(req.body.email)) validationErrors.push({ msg: 'Please enter a valid email address.' })
     if (validator.isEmpty(req.body.password)) validationErrors.push({ msg: 'Password cannot be blank.' })

@@ -1,9 +1,9 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose') // Pulls in Mongoose
 
-const TodoSchema = new mongoose.Schema({
+const TodoSchema = new mongoose.Schema({ // Mongoose schema
   todo: {
     type: String,
-    required: true,
+    required: true, // Mandatory field to be filled
   },
   completed: {
     type: Boolean,

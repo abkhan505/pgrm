@@ -166,6 +166,12 @@ body > nav .navbar-nav, #navbarNav {
      line-height: 15px;
 }
 
+.divider {
+     width: 93.50%;
+     border-bottom: 3px solid #2a2a2a;
+     margin-bottom: 10px;
+}
+
 a {
      text-decoration: none;
      background-color: transparent;
@@ -243,6 +249,16 @@ a {
      background-color: rgb(68 89 111 / var(--tw-bg-opacity))
 }
 
+.shadow {
+     --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
+     --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+
+.h-10 {
+     height: 2.5rem;
+}
+
 .rounded {
      border-radius: .25rem;
 }
@@ -271,12 +287,33 @@ a {
      width: 100%;
 }
 
+/* .text-sm {
+     font-size: .875rem;
+     line-height: 1.25rem;
+}
+
+.p-0 {
+     padding: 0;
+}
+
+.w-24 {
+     width: 6rem;
+}
+ */
 .h-16 {
      height: 4rem;
 }
 
 .relative {
      position: relative;
+}
+
+.w-10 {
+     width: 3.5rem;
+}
+
+.h-full {
+     height: 100%;
 }
 
 .to-rare-600 {
@@ -323,8 +360,20 @@ input[type=number] {
      width: 100%;
 }
 
-.arrowhide {
-     
+.w-half {
+     width: 50%;
+}
+
+img {
+     height: auto;
+}
+
+.max-w-\[2rem\] {
+     max-width: 2rem;
+}
+
+.max-h-\[2rem\] {
+     max-height: 2rem;
 }
 
 /******************************************
@@ -377,5 +426,16 @@ a:hover, a:active {
    @media (min-width: 780px) {
      .md\:mb-2 {
        margin-bottom: .5rem;
+     }
+   }
+
+   @media (min-width: 640px) {
+     .sm\:w-60 {
+       width: 7rem;
+     }
+   }
+   @media (min-width: 640px) {
+     .sm\:h-14 {
+       height: 3.5rem;
      }
    }

@@ -22,7 +22,7 @@
 /*******************************************/
 
 body {
-     background-color: #71797E;
+     background-color: #2e3036;
      color: #FFFFFF;
      font-size: 1rem;
      line-height: 1.5;
@@ -393,7 +393,7 @@ img {
 /*******************************************/
 
 .bgcolor {
-     background: linear-gradient(#404040, #454545)
+     background: radial-gradient(#22252e, #1c1e24);
 }
 
 dl, ol, ul {

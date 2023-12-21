@@ -1,4 +1,13 @@
-const deleteBtn = document.querySelectorAll('.del')
+import tippy from 'tippy.js';
+import 'tippy.js/dist/tippy.css';
+
+// Tippy for popups
+
+tippy('#cogs', {
+    content: 'Cogs',
+})
+
+/* const deleteBtn = document.querySelectorAll('.del')
 const todoItem = document.querySelectorAll('span.not')
 const todoComplete = document.querySelectorAll('span.completed')
 
@@ -66,4 +75,5 @@ async function markIncomplete(){
     }catch(err){
         console.log(err)
     }
-}
+} */
+

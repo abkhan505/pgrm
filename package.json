@@ -1,5 +1,5 @@
 {
-  "name": "todo-mvc-auth-local",
+  "name": "pgrm",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -29,6 +29,7 @@
     "validator": "^13.6.0"
   },
   "devDependencies": {
-    "rollup-plugin-replace": "^2.2.0"
+    "rollup-plugin-replace": "^2.2.0",
+    "webpack": "^5.89.0"
   }
 }

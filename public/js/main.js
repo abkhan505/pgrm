@@ -1,3 +1,20 @@
+
+if (!localStorage.getItem('Cogs')) {
+    localStorage.setItem('Cogs', 0)
+}
+
+// Event Listener
+document.getElementById("cogsQ").addEventListener('change', doThing);
+
+// Grabs value
+
+
+/* Function */
+function doThing(){
+    let cogsQ = document.getElementById('cogsQ').value
+   localStorage.setItem('Cogs', cogsQ)
+}
+
 /* import tippy from 'tippy.js'; */
 /* import 'tippy.js/dist/tippy.css';
 import 'tippy.js/animations/scale.css'; */

@@ -1,13 +1,17 @@
-import tippy from '/tippy.js';
+/* import tippy from 'tippy.js'; */
 /* import 'tippy.js/dist/tippy.css';
 import 'tippy.js/animations/scale.css'; */
 
 // Tippy for popups
-
+/* 
 tippy('#cogs', {
     content: 'Cogs',
 })
 
+tippy('#rainbowcard', {
+    content: 'Rainbow Card',
+});
+ */
 /* const deleteBtn = document.querySelectorAll('.del')
 const todoItem = document.querySelectorAll('span.not')
 const todoComplete = document.querySelectorAll('span.completed')

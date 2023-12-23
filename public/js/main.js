@@ -213,6 +213,141 @@ if (!localStorage.getItem('Memory Overclock Circuit II')) {
     document.getElementById('memoIIQ').value = localStorage.getItem('Memory Overclock Circuit II');
 }
 
+if (!localStorage.getItem('Processor Shard')) {
+    localStorage.setItem('Processor Shard', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('procQ').value = localStorage.getItem('Processor Shard');
+}
+
+if (!localStorage.getItem('Weapon Enhancer II')) {
+    localStorage.setItem('Weapon Enhancer II', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('weapEIIQ').value = localStorage.getItem('Weapon Enhancer II');
+}
+
+if (!localStorage.getItem('Weapon Enhancer III')) {
+    localStorage.setItem('Weapon Enhancer III', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('weapEIIIQ').value = localStorage.getItem('Weapon Enhancer III');
+}
+
+if (!localStorage.getItem('Weapon Enhancer IV')) {
+    localStorage.setItem('Weapon Enhancer IV', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('weapEIVQ').value = localStorage.getItem('Weapon Enhancer IV');
+}
+
+if (!localStorage.getItem('Weapon Overclock Core I')) {
+    localStorage.setItem('Weapon Overclock Core I', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('weapOCIQ').value = localStorage.getItem('Weapon Overclock Core I');
+}
+
+if (!localStorage.getItem('Weapon Overclock Core II')) {
+    localStorage.setItem('Weapon Overclock Core II', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('weapOCIIQ').value = localStorage.getItem('Weapon Overclock Core II');
+}
+
+if (!localStorage.getItem('Minor Overclock Alloy')) {
+    localStorage.setItem('Minor Overclock Alloy', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('minorOCQ').value = localStorage.getItem('Minor Overclock Alloy');
+}
+
+if (!localStorage.getItem('Major Overclock Alloy')) {
+    localStorage.setItem('Major Overclock Alloy', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('majorOCQ').value = localStorage.getItem('Major Overclock Alloy');
+}
+
+if (!localStorage.getItem('5 Star Memory Resonance Material')) {
+    localStorage.setItem('5 Star Memory Resonance Material', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('5memrQ').value = localStorage.getItem('5 Star Memory Resonance Material');
+}
+
+if (!localStorage.getItem('6 Star Memory Resonance Material')) {
+    localStorage.setItem('6 Star Memory Resonance Material', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('6memrQ').value = localStorage.getItem('6 Star Memory Resonance Material');
+}
+
+if (!localStorage.getItem('5 Star Weapon Resonance Material')) {
+    localStorage.setItem('5 Star Weapon Resonance Material', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('5weprQ').value = localStorage.getItem('5 Star Weapon Resonance Material');
+}
+
+if (!localStorage.getItem('6 Star Weapon Resonance Material')) {
+    localStorage.setItem('6 Star Weapon Resonance Material', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('6weprQ').value = localStorage.getItem('6 Star Weapon Resonance Material');
+}
+
+if (!localStorage.getItem('Aura Basic Unit')) {
+    localStorage.setItem('Aura Basic Unit', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('aurabQ').value = localStorage.getItem('Aura Basic Unit');
+}
+
+if (!localStorage.getItem('Aura Chip')) {
+    localStorage.setItem('Aura Chip', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('auracQ').value = localStorage.getItem('Aura Chip');
+}
+
+if (!localStorage.getItem('Leap Wafer Chip: Astral')) {
+    localStorage.setItem('Leap Wafer Chip: Astral', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('lwaQ').value = localStorage.getItem('Leap Wafer Chip: Astral');
+}
+
+if (!localStorage.getItem('Leap Wafer Chip: Dawn')) {
+    localStorage.setItem('Leap Wafer Chip: Dawn', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('lwdQ').value = localStorage.getItem('Leap Wafer Chip: Dawn');
+}
+
+if (!localStorage.getItem('Leap Wafer Chip: Luminance')) {
+    localStorage.setItem('Leap Wafer Chip: Luminance', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('lwlQ').value = localStorage.getItem('Leap Wafer Chip: Luminance');
+}
+
+if (!localStorage.getItem('Leap Wafer Chip: Palefire')) {
+    localStorage.setItem('Leap Wafer Chip: Palefire', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('lwpQ').value = localStorage.getItem('Leap Wafer Chip: Palefire');
+}
+
+if (!localStorage.getItem('Leap Wafer Chip: Rigor')) {
+    localStorage.setItem('Leap Wafer Chip: Rigor', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('lwrQ').value = localStorage.getItem('Leap Wafer Chip: Rigor');
+}
+
+
+
 
 // Event Listener for Input
 
@@ -271,6 +406,49 @@ document.getElementById("memIIQ").addEventListener('change', memIIChange);
 document.getElementById("memIIIQ").addEventListener('change', memIIIChange);
 
 document.getElementById("memIVQ").addEventListener('change', memIVChange);
+
+document.getElementById("memoIQ").addEventListener('change', memoIChange);
+
+document.getElementById("memoIIQ").addEventListener('change', memoIIChange);
+
+document.getElementById("procQ").addEventListener('change', procChange);
+
+document.getElementById("weapEIIQ").addEventListener('change', weapEIIChange);
+
+document.getElementById("weapEIIIQ").addEventListener('change', weapEIIIChange);
+
+document.getElementById("weapEIVQ").addEventListener('change', weapEIVChange);
+
+document.getElementById("weapOCIQ").addEventListener('change', weapOCIChange);
+
+document.getElementById("weapOCIIQ").addEventListener('change', weapOCIIChange);
+
+document.getElementById("minorOCQ").addEventListener('change', minorOCChange);
+
+document.getElementById("majorOCQ").addEventListener('change', majorOCChange);
+
+document.getElementById("5memrQ").addEventListener('change', fivememChange);
+
+document.getElementById("6memrQ").addEventListener('change', sixmemChange);
+
+document.getElementById("5weprQ").addEventListener('change', fivewepChange);
+
+document.getElementById("6weprQ").addEventListener('change', sixwepChange);
+
+document.getElementById("aurabQ").addEventListener('change', aurabChange);
+
+document.getElementById("auracQ").addEventListener('change', auracChange);
+
+document.getElementById("lwaQ").addEventListener('change', leapastralChange);
+
+document.getElementById("lwdQ").addEventListener('change', leapdawnChange);
+
+document.getElementById("lwlQ").addEventListener('change', leapluminanceChange);
+
+document.getElementById("lwpQ").addEventListener('change', leappalefireChange);
+
+document.getElementById("lwrQ").addEventListener('change', leaprigorChange);
+
 
 // Function for change
 
@@ -412,4 +590,109 @@ function memIIIChange(){
 function memIVChange(){
     let memIVQ = document.getElementById('memIVQ').value
    localStorage.setItem('Memory Enhancer IV', memIVQ)
+}
+
+function memoIChange(){
+    let memoIQ = document.getElementById('memoIQ').value
+   localStorage.setItem('Memory Overclock Circuit I', memoIQ)
+}
+
+function memoIIChange(){
+    let memoIIQ = document.getElementById('memoIIQ').value
+   localStorage.setItem('Memory Overclock Circuit II', memoIIQ)
+}
+
+function procChange(){
+    let procQ = document.getElementById('procQ').value
+   localStorage.setItem('Processor Shard', procQ)
+}
+
+function weapEIIChange(){
+    let weapEIIQ = document.getElementById('weapEIIQ').value
+   localStorage.setItem('Weapon Enhancer II', weapEIIQ)
+}
+
+function weapEIIIChange(){
+    let weapEIIIQ = document.getElementById('weapEIIIQ').value
+   localStorage.setItem('Weapon Enhancer III', weapEIIIQ)
+}
+
+function weapEIVChange(){
+    let weapEIVQ = document.getElementById('weapEIVQ').value
+   localStorage.setItem('Weapon Enhancer IV', weapEIVQ)
+}
+
+function weapOCIChange(){
+    let weapOCIQ = document.getElementById('weapOCIQ').value
+   localStorage.setItem('Weapon Overclock Core I', weapOCIQ)
+}
+
+function weapOCIIChange(){
+    let weapOCIIQ = document.getElementById('weapOCIIQ').value
+   localStorage.setItem('Weapon Overclock Core II', weapOCIIQ)
+}
+
+function minorOCChange(){
+    let minorOCQ = document.getElementById('minorOCQ').value
+   localStorage.setItem('Minor Overclock Alloy', minorOCQ)
+}
+
+function majorOCChange(){
+    let majorOCQ = document.getElementById('majorOCQ').value
+   localStorage.setItem('Major Overclock Alloy', majorOCQ)
+}
+
+function fivememChange(){
+    let memrQ = document.getElementById('5memrQ').value
+   localStorage.setItem('5 Star Memory Resonance Material', memrQ)
+}
+
+function sixmemChange(){
+    let memrQ = document.getElementById('6memrQ').value
+   localStorage.setItem('6 Star Memory Resonance Material', memrQ)
+}
+
+function fivewepChange(){
+    let weprQ = document.getElementById('5weprQ').value
+   localStorage.setItem('5 Star Weapon Resonance Material', weprQ)
+}
+
+function sixwepChange(){
+    let weprQ = document.getElementById('6weprQ').value
+   localStorage.setItem('6 Star Weapon Resonance Material', weprQ)
+}
+
+function aurabChange(){
+    let aurabQ = document.getElementById('aurabQ').value
+   localStorage.setItem('Aura Basic Unit', aurabQ)
+}
+
+function auracChange(){
+    let auracQ = document.getElementById('auracQ').value
+   localStorage.setItem('Aura Chip', auracQ)
+}
+
+function leapastralChange(){
+    let lwaQ = document.getElementById('lwaQ').value
+   localStorage.setItem('Leap Wafer Chip: Astral', lwaQ)
+}
+
+function leapdawnChange(){
+    let lwdQ = document.getElementById('lwdQ').value
+   localStorage.setItem('Leap Wafer Chip: Dawn', lwdQ)
+}
+
+function leapluminanceChange(){
+    let lwlQ = document.getElementById('lwlQ').value
+   localStorage.setItem('Leap Wafer Chip: Luminance', lwlQ)
+}
+
+function leappalefireChange(){
+    let lwpQ = document.getElementById('lwpQ').value
+   localStorage.setItem('Leap Wafer Chip: Palefire', lwpQ)
+}
+
+function leaprigorChange(){
+    let lwrQ = document.getElementById('lwrQ').value
+   localStorage.setItem('Leap Wafer Chip: Rigor', lwrQ)
 }

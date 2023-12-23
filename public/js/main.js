@@ -346,8 +346,173 @@ if (!localStorage.getItem('Leap Wafer Chip: Rigor')) {
     document.getElementById('lwrQ').value = localStorage.getItem('Leap Wafer Chip: Rigor');
 }
 
+if (!localStorage.getItem('Uniframe Crystal: Arca')) {
+    localStorage.setItem('Uniframe Crystal: Arca', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ucaQ').value = localStorage.getItem('Uniframe Crystal: Arca');
+}
 
+if (!localStorage.getItem('Uniframe Crystal: Crocotta')) {
+    localStorage.setItem('Uniframe Crystal: Crocotta', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('uccQ').value = localStorage.getItem('Uniframe Crystal: Crocotta');
+}
 
+if (!localStorage.getItem('Uniframe Crystal: Dragontoll')) {
+    localStorage.setItem('Uniframe Crystal: Dragontoll', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ucdQ').value = localStorage.getItem('Uniframe Crystal: Dragontoll');
+}
+
+if (!localStorage.getItem('Uniframe Crystal: Flambeau')) {
+    localStorage.setItem('Uniframe Crystal: Flambeau', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ucfQ').value = localStorage.getItem('Uniframe Crystal: Flambeau');
+}
+
+if (!localStorage.getItem('Uniframe Crystal: Starveil')) {
+    localStorage.setItem('Uniframe Crystal: Starveil', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ucsQ').value = localStorage.getItem('Uniframe Crystal: Starveil');
+}
+
+if (!localStorage.getItem('Uniframe Crystal: Tempest')) {
+    localStorage.setItem('Uniframe Crystal: Tempest', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('uctQ').value = localStorage.getItem('Uniframe Crystal: Tempest');
+}
+
+if (!localStorage.getItem('Integrated CUB EXP S')) {
+    localStorage.setItem('Integrated CUB EXP S', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('cubexpsQ').value = localStorage.getItem('Integrated CUB EXP S');
+}
+
+if (!localStorage.getItem('Integrated CUB EXP L')) {
+    localStorage.setItem('Integrated CUB EXP L', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('cubexplQ').value = localStorage.getItem('Integrated CUB EXP L');
+}
+
+if (!localStorage.getItem('Support Overclock Bundle S')) {
+    localStorage.setItem('Support Overclock Bundle S', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ocbsQ').value = localStorage.getItem('Support Overclock Bundle S');
+}
+
+if (!localStorage.getItem('Support Overclock Bundle L')) {
+    localStorage.setItem('Support Overclock Bundle L', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ocblQ').value = localStorage.getItem('Support Overclock Bundle L');
+}
+
+if (!localStorage.getItem('Support Skill Component')) {
+    localStorage.setItem('Support Skill Component', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sscQ').value = localStorage.getItem('Support Skill Component');
+}
+
+if (!localStorage.getItem('Booster Structural Part - Boreas')) {
+    localStorage.setItem('Booster Structural Part - Boreas', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('bsborQ').value = localStorage.getItem('Booster Structural Part - Boreas');
+}
+
+if (!localStorage.getItem('Booster Structural Part - Frost Oath')) {
+    localStorage.setItem('Booster Structural Part - Frost Oath', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('bsfoQ').value = localStorage.getItem('Booster Structural Part - Frost Oath');
+}
+
+if (!localStorage.getItem('Booster Structural Part - Jet Jaeger')) {
+    localStorage.setItem('Booster Structural Part - Jet Jaeger', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('bsjjQ').value = localStorage.getItem('Booster Structural Part - Jet Jaeger');
+}
+
+if (!localStorage.getItem('Booster Structural Part - Lingya')) {
+    localStorage.setItem('Booster Structural Part - Lingya', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('bslQ').value = localStorage.getItem('Booster Structural Part - Lingya');
+}
+
+if (!localStorage.getItem('Booster Structural Part - Moonhopper')) {
+    localStorage.setItem('Booster Structural Part - Moonhopper', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('bsmhQ').value = localStorage.getItem('Booster Structural Part - Moonhopper');
+}
+
+if (!localStorage.getItem('Booster Structural Part - Nitor')) {
+    localStorage.setItem('Booster Structural Part - Nitor', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('bsniQ').value = localStorage.getItem('Booster Structural Part - Nitor');
+}
+
+if (!localStorage.getItem('Booster Structural Part - Noctua')) {
+    localStorage.setItem('Booster Structural Part - Noctua', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('bsnoQ').value = localStorage.getItem('Booster Structural Part - Noctua');
+}
+
+if (!localStorage.getItem('Booster Structural Part - Punchy')) {
+    localStorage.setItem('Booster Structural Part - Punchy', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('bspQ').value = localStorage.getItem('Booster Structural Part - Punchy');
+}
+
+if (!localStorage.getItem('Booster Structural Part - Seeshell')) {
+    localStorage.setItem('Booster Structural Part - Seeshell', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('bsssQ').value = localStorage.getItem('Booster Structural Part - Seeshell');
+}
+
+if (!localStorage.getItem('Booster Structural Part - Shimmer')) {
+    localStorage.setItem('Booster Structural Part - Shimmer', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('bsshQ').value = localStorage.getItem('Booster Structural Part - Shimmer');
+}
+
+if (!localStorage.getItem('Booster Structural Part - Thorny')) {
+    localStorage.setItem('Booster Structural Part - Thorny', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('bsthQ').value = localStorage.getItem('Booster Structural Part - Thorny');
+}
+
+if (!localStorage.getItem('Booster Structural Part - Toniris')) {
+    localStorage.setItem('Booster Structural Part - Toniris', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('bstonQ').value = localStorage.getItem('Booster Structural Part - Toniris');
+}
+
+if (!localStorage.getItem('Booster Structural Part - Yuan Ye')) {
+    localStorage.setItem('Booster Structural Part - Yuan Ye', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('bsyyQ').value = localStorage.getItem('Booster Structural Part - Yuan Ye');
+}
 
 // Event Listener for Input
 
@@ -449,6 +614,27 @@ document.getElementById("lwpQ").addEventListener('change', leappalefireChange);
 
 document.getElementById("lwrQ").addEventListener('change', leaprigorChange);
 
+document.getElementById("ucaQ").addEventListener('change', uniarcaChange);
+
+document.getElementById("uccQ").addEventListener('change', unicrocChange);
+
+document.getElementById("ucdQ").addEventListener('change', unidragonChange);
+
+document.getElementById("ucfQ").addEventListener('change', uniflamChange);
+
+document.getElementById("ucsQ").addEventListener('change', unistarChange);
+
+document.getElementById("uctQ").addEventListener('change', unitempChange);
+
+document.getElementById("cubexpsQ").addEventListener('change', cubexpSChange);
+
+document.getElementById("cubexplQ").addEventListener('change', cubexpLChange);
+
+document.getElementById("ocbsQ").addEventListener('change', ocsChange);
+
+document.getElementById("ocblQ").addEventListener('change', oclChange);
+
+document.getElementById("sscQ").addEventListener('change', sscChange);
 
 // Function for change
 
@@ -695,4 +881,59 @@ function leappalefireChange(){
 function leaprigorChange(){
     let lwrQ = document.getElementById('lwrQ').value
    localStorage.setItem('Leap Wafer Chip: Rigor', lwrQ)
+}
+
+function uniarcaChange(){
+    let ucaQ = document.getElementById('ucaQ').value
+   localStorage.setItem('Uniframe Crystal: Arca', ucaQ)
+}
+
+function unicrocChange(){
+    let uccQ = document.getElementById('uccQ').value
+   localStorage.setItem('Uniframe Crystal: Crocotta', uccQ)
+}
+
+function unidragonChange(){
+    let ucdQ = document.getElementById('ucdQ').value
+   localStorage.setItem('Uniframe Crystal: Dragontoll', ucdQ)
+}
+
+function uniflamChange(){
+    let ucfQ = document.getElementById('ucfQ').value
+   localStorage.setItem('Uniframe Crystal: Flambeau', ucfQ)
+}
+
+function unistarChange(){
+    let ucsQ = document.getElementById('ucsQ').value
+   localStorage.setItem('Uniframe Crystal: Starveil', ucsQ)
+}
+
+function unitempChange(){
+    let uctQ = document.getElementById('uctQ').value
+   localStorage.setItem('Uniframe Crystal: Tempest', uctQ)
+}
+
+function cubexpSChange(){
+    let cubexpsQ = document.getElementById('cubexpsQ').value
+   localStorage.setItem('Integrated CUB EXP S', cubexpsQ)
+}
+
+function cubexpLChange(){
+    let cubexplQ = document.getElementById('cubexplQ').value
+   localStorage.setItem('Integrated CUB EXP L', cubexplQ)
+}
+
+function ocsChange(){
+    let ocbsQ = document.getElementById('ocbsQ').value
+   localStorage.setItem('Support Overclock Bundle S', ocbsQ)
+}
+
+function oclChange(){
+    let ocblQ = document.getElementById('ocblQ').value
+   localStorage.setItem('Support Overclock Bundle L', ocblQ)
+}
+
+function sscChange(){
+    let sscQ = document.getElementById('sscQ').value
+   localStorage.setItem('Support Skill Component', sscQ)
 }

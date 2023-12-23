@@ -636,6 +636,32 @@ document.getElementById("ocblQ").addEventListener('change', oclChange);
 
 document.getElementById("sscQ").addEventListener('change', sscChange);
 
+document.getElementById("bsborQ").addEventListener('change', borChange);
+
+document.getElementById("bsfoQ").addEventListener('change', foChange);
+
+document.getElementById("bsjjQ").addEventListener('change', jjChange);
+
+document.getElementById("bslQ").addEventListener('change', slChange);
+
+document.getElementById("bsmhQ").addEventListener('change', mhChange);
+
+document.getElementById("bsniQ").addEventListener('change', niChange);
+
+document.getElementById("bsnoQ").addEventListener('change', noChange);
+
+document.getElementById("bspQ").addEventListener('change', pChange);
+
+document.getElementById("bsssQ").addEventListener('change', ssChange);
+
+document.getElementById("bsshQ").addEventListener('change', sshChange);
+
+document.getElementById("bsthQ").addEventListener('change', thChange);
+
+document.getElementById("bstonQ").addEventListener('change', tonChange);
+
+document.getElementById("bsyyQ").addEventListener('change', yyChange);
+
 // Function for change
 
 function cogsChange(){
@@ -936,4 +962,69 @@ function oclChange(){
 function sscChange(){
     let sscQ = document.getElementById('sscQ').value
    localStorage.setItem('Support Skill Component', sscQ)
+}
+
+function borChange(){
+    let bsborQ = document.getElementById('bsborQ').value
+   localStorage.setItem('Booster Structural Part - Boreas', bsborQ)
+}
+
+function foChange(){
+    let bsfoQ = document.getElementById('bsfoQ').value
+   localStorage.setItem('Booster Structural Part - Frost Oath', bsfoQ)
+}
+
+function jjChange(){
+    let bsjjQ = document.getElementById('bsjjQ').value
+   localStorage.setItem('Booster Structural Part - Jet Jaeger', bsjjQ)
+}
+
+function slChange(){
+    let bslQ = document.getElementById('bslQ').value
+   localStorage.setItem('Booster Structural Part - Lingya', bslQ)
+}
+
+function mhChange(){
+    let bsmhQ = document.getElementById('bsmhQ').value
+   localStorage.setItem('Booster Structural Part - Moonhopper', bsmhQ)
+}
+
+function niChange(){
+    let bsniQ = document.getElementById('bsniQ').value
+   localStorage.setItem('Booster Structural Part - Nitor', bsniQ)
+}
+
+function noChange(){
+    let bsnoQ = document.getElementById('bsnoQ').value
+   localStorage.setItem('Booster Structural Part - Noctua', bsnoQ)
+}
+
+function pChange(){
+    let bspQ = document.getElementById('bspQ').value
+   localStorage.setItem('Booster Structural Part - Punchy', bspQ)
+}
+
+function ssChange(){
+    let bsssQ = document.getElementById('bsssQ').value
+   localStorage.setItem('Booster Structural Part - Seeshell', bsssQ)
+}
+
+function sshChange(){
+    let bsshQ = document.getElementById('bsshQ').value
+   localStorage.setItem('Booster Structural Part - Shimmer', bsshQ)
+}
+
+function thChange(){
+    let bsthQ = document.getElementById('bsthQ').value
+   localStorage.setItem('Booster Structural Part - Thorny', bsthQ)
+}
+
+function tonChange(){
+    let bstonQ = document.getElementById('bstonQ').value
+   localStorage.setItem('Booster Structural Part - Toniris', bstonQ)
+}
+
+function yyChange(){
+    let bsyyQ = document.getElementById('bsyyQ').value
+   localStorage.setItem('Booster Structural Part - Yuan Ye', bsyyQ)
 }

@@ -147,6 +147,73 @@ if (!localStorage.getItem('Uniframe Single Crystal')) {
     document.getElementById('ucQ').value = localStorage.getItem('Uniframe Single Crystal');
 }
 
+if (!localStorage.getItem('EXP Pod S')) {
+    localStorage.setItem('EXP Pod S', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('xpsQ').value = localStorage.getItem('EXP Pod S');
+}
+
+
+if (!localStorage.getItem('EXP Pod M')) {
+    localStorage.setItem('EXP Pod M', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('xpmQ').value = localStorage.getItem('EXP Pod M');
+}
+
+
+if (!localStorage.getItem('EXP Pod L')) {
+    localStorage.setItem('EXP Pod L', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('xplQ').value = localStorage.getItem('EXP Pod L');
+}
+
+
+if (!localStorage.getItem('EXP Pod XL')) {
+    localStorage.setItem('EXP Pod XL', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('xpxlQ').value = localStorage.getItem('EXP Pod XL');
+}
+
+if (!localStorage.getItem('Memory Enhancer II')) {
+    localStorage.setItem('Memory Enhancer II', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('memIIQ').value = localStorage.getItem('Memory Enhancer II');
+}
+
+if (!localStorage.getItem('Memory Enhancer III')) {
+    localStorage.setItem('Memory Enhancer III', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('memIIIQ').value = localStorage.getItem('Memory Enhancer III');
+}
+
+if (!localStorage.getItem('Memory Enhancer IV')) {
+    localStorage.setItem('Memory Enhancer IV', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('memIVQ').value = localStorage.getItem('Memory Enhancer IV');
+}
+
+if (!localStorage.getItem('Memory Overclock Circuit I')) {
+    localStorage.setItem('Memory Overclock Circuit I', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('memoIQ').value = localStorage.getItem('Memory Overclock Circuit I');
+}
+
+if (!localStorage.getItem('Memory Overclock Circuit II')) {
+    localStorage.setItem('Memory Overclock Circuit II', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('memoIIQ').value = localStorage.getItem('Memory Overclock Circuit II');
+}
+
+
 // Event Listener for Input
 
 document.getElementById("cogsQ").addEventListener('change', cogsChange);
@@ -190,6 +257,20 @@ document.getElementById("cbQ").addEventListener('change', cbChange);
 document.getElementById("lwQ").addEventListener('change', lwChange);
 
 document.getElementById("ucQ").addEventListener('change', ucChange);
+
+document.getElementById("xpsQ").addEventListener('change', xpsChange);
+
+document.getElementById("xpmQ").addEventListener('change', xpmChange);
+
+document.getElementById("xplQ").addEventListener('change', xplChange);
+
+document.getElementById("xpxlQ").addEventListener('change', xpxlChange);
+
+document.getElementById("memIIQ").addEventListener('change', memIIChange);
+
+document.getElementById("memIIIQ").addEventListener('change', memIIIChange);
+
+document.getElementById("memIVQ").addEventListener('change', memIVChange);
 
 // Function for change
 
@@ -296,4 +377,39 @@ function lwChange(){
 function ucChange(){
     let ucQ = document.getElementById('ucQ').value
    localStorage.setItem('Uniframe Single Crystal', ucQ)
+}
+
+function xpsChange(){
+    let xpsQ = document.getElementById('xpsQ').value
+   localStorage.setItem('EXP Pod S', xpsQ)
+}
+
+function xpmChange(){
+    let xpmQ = document.getElementById('xpmQ').value
+   localStorage.setItem('EXP Pod M', xpmQ)
+}
+
+function xplChange(){
+    let xplQ = document.getElementById('xplQ').value
+   localStorage.setItem('EXP Pod L', xplQ)
+}
+
+function xpxlChange(){
+    let xpxlQ = document.getElementById('xpxlQ').value
+   localStorage.setItem('EXP Pod XL', xpxlQ)
+}
+
+function memIIChange(){
+    let memIIQ = document.getElementById('memIIQ').value
+   localStorage.setItem('Memory Enhancer II', memIIQ)
+}
+
+function memIIIChange(){
+    let memIIIQ = document.getElementById('memIIIQ').value
+   localStorage.setItem('Memory Enhancer III', memIIIQ)
+}
+
+function memIVChange(){
+    let memIVQ = document.getElementById('memIVQ').value
+   localStorage.setItem('Memory Enhancer IV', memIVQ)
 }

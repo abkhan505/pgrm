@@ -8,7 +8,8 @@ const flash = require('express-flash') // Defines flash messages and renders it 
 const logger = require('morgan') // Middleware which simplifies process of logging requests to the application
 const connectDB = require('./config/database') // Variable points to /config/database for database connection
 const mainRoutes = require('./routes/main') // Variable points to /routes/main to route main requests to root
-const todoRoutes = require('./routes/todos') // VAriable points to /routes/todos to route todo requests to todos
+const todoRoutes = require('./routes/todos') // Variable points to /routes/todos to route todo requests to todos
+const authRoutes = require('./routes/auth') // Variable points to /routes/auth to route authentication requests to auth
 
 require('dotenv').config({path: './config/.env'}) // Pulls in .env with all of our log-in information
 
@@ -40,6 +41,7 @@ app.use(passport.session()) // Initializes authentication for that specific sess
 app.use(flash())
   
 app.use('/', mainRoutes) // Upon hearing the '/' or root website request > sends to mainRoutes for further redirection
+app.use('/auth', authRoutes) // Upon hearing /auth will send for Google authentication
 app.use('/todos', todoRoutes) // Upon hearing the '/todos' or todos page request > sends to todoRoutes for further redirection
  
 app.listen(process.env.PORT, ()=>{ // This is just for connecting to the port

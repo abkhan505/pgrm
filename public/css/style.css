@@ -536,4 +536,7 @@ a:hover, a:active {
      section {
           align-self: center;
      }
+     .margin-diff {
+          margin-top: 1rem;
+     }
    }

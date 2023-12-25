@@ -385,12 +385,20 @@ input[type=number] {
      background-color: rgb(95 120 145 / var(--tw-bg-opacity));
 }
 
+.text-white {
+     color: white;
+}
+
 .w-full {
      width: 100%;
 }
 
 .w-half {
      width: 50%;
+}
+
+.margin-top {
+     margin-top: 3em;
 }
 
 img {
@@ -411,6 +419,10 @@ img {
 
 .max-w-\[3rem\] {
      max-height: 3rem;
+}
+
+.nolist {
+     list-style-type: none;
 }
 
 .login-with-google-btn {

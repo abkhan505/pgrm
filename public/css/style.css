@@ -539,4 +539,18 @@ a:hover, a:active {
      .margin-diff {
           margin-top: 1rem;
      }
+     .items-start {
+          align-self: center;
+     }
+     .grid {
+          display: center;
+     }
+     .rowforflex {
+          display: flex;
+          flex-wrap: wrap;
+          margin-right: .5em;
+          margin-left: 1.5em;
+     }
+
+     
    }

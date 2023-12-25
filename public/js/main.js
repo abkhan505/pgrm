@@ -662,6 +662,15 @@ document.getElementById("bstonQ").addEventListener('change', tonChange);
 
 document.getElementById("bsyyQ").addEventListener('change', yyChange);
 
+
+// Event Listener for button deprecation
+
+document.getElementById('button').addEventListener('click', popupalert);
+
+function popupalert() {
+    return alert('Currently unavailable.')
+}
+
 // Function for change
 
 function cogsChange(){

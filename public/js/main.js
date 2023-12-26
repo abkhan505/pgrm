@@ -661,6 +661,264 @@ if (!localStorage.getItem('Inver-Shard - Arclight')) {
     document.getElementById('sal').value = localStorage.getItem('Inver-Shard - Arclight');
 }
 
+if (!localStorage.getItem('Inver-Shard - Plume')) {
+    localStorage.setItem('Inver-Shard - Plume', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('spl').value = localStorage.getItem('Inver-Shard - Plume');
+}
+
+if (!localStorage.getItem('Inver-Shard - Rozen')) {
+    localStorage.setItem('Inver-Shard - Rozen', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sro').value = localStorage.getItem('Inver-Shard - Rozen');
+}
+
+if (!localStorage.getItem('Inver-Shard - Crocotta')) {
+    localStorage.setItem('Inver-Shard - Crocotta', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('scr').value = localStorage.getItem('Inver-Shard - Crocotta');
+}
+
+if (!localStorage.getItem('Inver-Shard - Rigor')) {
+    localStorage.setItem('Inver-Shard - Rigor', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sri').value = localStorage.getItem('Inver-Shard - Rigor');
+}
+
+if (!localStorage.getItem('Inver-Shard - Qilin')) {
+    localStorage.setItem('Inver-Shard - Qilin', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sqi').value = localStorage.getItem('Inver-Shard - Qilin');
+}
+
+if (!localStorage.getItem('Inver-Shard - Pavo')) {
+    localStorage.setItem('Inver-Shard - Pavo', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('spa').value = localStorage.getItem('Inver-Shard - Pavo');
+}
+
+if (!localStorage.getItem('Inver-Shard - Laurel')) {
+    localStorage.setItem('Inver-Shard - Laurel', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sla').value = localStorage.getItem('Inver-Shard - Laurel');
+}
+
+if (!localStorage.getItem('Inver-Shard - A2')) {
+    localStorage.setItem('Inver-Shard - A2', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sa2').value = localStorage.getItem('Inver-Shard - A2');
+}
+
+if (!localStorage.getItem('Inver-Shard - 9S')) {
+    localStorage.setItem('Inver-Shard - 9S', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('s9s').value = localStorage.getItem('Inver-Shard - 9S');
+}
+
+if (!localStorage.getItem('Inver-Shard - 2B')) {
+    localStorage.setItem('Inver-Shard - 2B', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('s2b').value = localStorage.getItem('Inver-Shard - 2B');
+}
+
+if (!localStorage.getItem('Inver-Shard - Tempest')) {
+    localStorage.setItem('Inver-Shard - Tempest', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('stempest').value = localStorage.getItem('Inver-Shard - Tempest');
+}
+
+if (!localStorage.getItem('Inver-Shard - Hypnos')) {
+    localStorage.setItem('Inver-Shard - Hypnos', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('shy').value = localStorage.getItem('Inver-Shard - Hypnos');
+}
+
+if (!localStorage.getItem('Inver-Shard - Glory')) {
+    localStorage.setItem('Inver-Shard - Glory', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sgl').value = localStorage.getItem('Inver-Shard - Glory');
+}
+
+if (!localStorage.getItem('Inver-Shard - XXI')) {
+    localStorage.setItem('Inver-Shard - XXI', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sxx').value = localStorage.getItem('Inver-Shard - XXI');
+}
+
+if (!localStorage.getItem('Inver-Shard - Garnet')) {
+    localStorage.setItem('Inver-Shard - Garnet', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sga').value = localStorage.getItem('Inver-Shard - Garnet');
+}
+
+if (!localStorage.getItem('Inver-Shard - Flambeau')) {
+    localStorage.setItem('Inver-Shard - Flambeau', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sfl').value = localStorage.getItem('Inver-Shard - Flambeau');
+}
+
+if (!localStorage.getItem('Inver-Shard - Empyrea')) {
+    localStorage.setItem('Inver-Shard - Empyrea', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sempyrea').value = localStorage.getItem('Inver-Shard - Empyrea');
+}
+
+if (!localStorage.getItem('Inver-Shard - Capriccio')) {
+    localStorage.setItem('Inver-Shard - Capriccio', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('scappucino').value = localStorage.getItem('Inver-Shard - Capriccio');
+}
+
+if (!localStorage.getItem('Inver-Shard - Dragontoll')) {
+    localStorage.setItem('Inver-Shard - Dragontoll', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sdr').value = localStorage.getItem('Inver-Shard - Dragontoll');
+}
+
+if (!localStorage.getItem('Inver-Shard - Starfarer')) {
+    localStorage.setItem('Inver-Shard - Starfarer', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sstarfarer').value = localStorage.getItem('Inver-Shard - Starfarer');
+}
+
+if (!localStorage.getItem('Inver-Shard - Starveil')) {
+    localStorage.setItem('Inver-Shard - Starveil', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sstarveil').value = localStorage.getItem('Inver-Shard - Starveil');
+}
+
+if (!localStorage.getItem('Inver-Shard - Scire')) {
+    localStorage.setItem('Inver-Shard - Scire', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sscire').value = localStorage.getItem('Inver-Shard - Scire');
+}
+
+if (!localStorage.getItem('Inver-Shard - Arca')) {
+    localStorage.setItem('Inver-Shard - Arca', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sar').value = localStorage.getItem('Inver-Shard - Arca');
+}
+
+if (!localStorage.getItem('Inver-Shard - Stigmata')) {
+    localStorage.setItem('Inver-Shard - Stigmata', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sstigmata').value = localStorage.getItem('Inver-Shard - Stigmata');
+}
+
+if (!localStorage.getItem('Inver-Shard - Vitrum')) {
+    localStorage.setItem('Inver-Shard - Vitrum', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('svi').value = localStorage.getItem('Inver-Shard - Vitrum');
+}
+
+if (!localStorage.getItem('Inver-Shard - Hyperreal')) {
+    localStorage.setItem('Inver-Shard - Hyperreal', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('shyper').value = localStorage.getItem('Inver-Shard - Hyperreal');
+}
+
+if (!localStorage.getItem('Inver-Shard - Kaleido')) {
+    localStorage.setItem('Inver-Shard - Kaleido', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ska').value = localStorage.getItem('Inver-Shard - Kaleido');
+}
+
+if (!localStorage.getItem('4* Memory Shard')) {
+    localStorage.setItem('4* Memory Shard', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ms4').value = localStorage.getItem('4* Memory Shard');
+}
+
+if (!localStorage.getItem('5* Memory Shard')) {
+    localStorage.setItem('5* Memory Shard', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ms5').value = localStorage.getItem('5* Memory Shard');
+}
+
+if (!localStorage.getItem('6* Memory Shard')) {
+    localStorage.setItem('6* Memory Shard', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ms6').value = localStorage.getItem('6* Memory Shard');
+}
+
+if (!localStorage.getItem('4* Weapon Shard')) {
+    localStorage.setItem('4* Weapon Shard', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ws4').value = localStorage.getItem('4* Weapon Shard');
+}
+
+if (!localStorage.getItem('5* Weapon Shard')) {
+    localStorage.setItem('5* Weapon Shard', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ws5').value = localStorage.getItem('5* Weapon Shard');
+}
+
+if (!localStorage.getItem('6* Weapon Shard')) {
+    localStorage.setItem('6* Weapon Shard', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ws6').value = localStorage.getItem('6* Weapon Shard');
+}
+
+if (!localStorage.getItem('6* Weapon Resonance Shard')) {
+    localStorage.setItem('6* Weapon Resonance Shard', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ws6r').value = localStorage.getItem('6* Weapon Resonance Shard');
+}
+
+if (!localStorage.getItem('A-Class Inver Material')) {
+    localStorage.setItem('A-Class Inver Material', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('aclass').value = localStorage.getItem('A-Class Inver Material');
+}
+
+if (!localStorage.getItem('S-Class Inver Material')) {
+    localStorage.setItem('S-Class Inver Material', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sclass').value = localStorage.getItem('S-Class Inver Material');
+}
+
+if (!localStorage.getItem('S-Class Transcendent Material')) {
+    localStorage.setItem('S-Class Transcendent Material', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sclasst').value = localStorage.getItem('S-Class Transcendent Material');
+}
 
 // Event Listener for Input
 
@@ -849,6 +1107,81 @@ document.getElementById("sve").addEventListener('change', sveChange);
 document.getElementById("ssf").addEventListener('change', ssfChange);
 
 document.getElementById("sal").addEventListener('change', salChange);
+
+document.getElementById("spl").addEventListener('change', splChange);
+
+document.getElementById("sro").addEventListener('change', sroChange);
+
+document.getElementById("scr").addEventListener('change', scrChange);
+
+document.getElementById("sri").addEventListener('change', sriChange);
+
+document.getElementById("sqi").addEventListener('change', sqiChange);
+
+document.getElementById("spa").addEventListener('change', spaChange);
+
+document.getElementById("spa").addEventListener('change', slaChange);
+
+document.getElementById("sa2").addEventListener('change', sa2Change);
+
+document.getElementById("s9s").addEventListener('change', s9sChange);
+
+document.getElementById("s2b").addEventListener('change', s2bChange);
+
+document.getElementById("ste").addEventListener('change', stempestChange);
+
+document.getElementById("shy").addEventListener('change', shyChange);
+
+document.getElementById("sgl").addEventListener('change', sglChange);
+
+document.getElementById("sxx").addEventListener('change', sxxChange);
+
+document.getElementById("sga").addEventListener('change', sgaChange);
+
+document.getElementById("sfl").addEventListener('change', sflChange);
+
+document.getElementById("sempyrea").addEventListener('change', sempyreaChange);
+
+document.getElementById("scappucino").addEventListener('change', scappucinoChange);
+
+document.getElementById("sdr").addEventListener('change', sdrChange);
+
+document.getElementById("sstarfarer").addEventListener('change', sstarfarerChange);
+
+document.getElementById("sstarveil").addEventListener('change', sstarveilChange);
+
+document.getElementById("sscire").addEventListener('change', sscireChange);
+
+document.getElementById("sar").addEventListener('change', sarChange);
+
+document.getElementById("sstigmata").addEventListener('change', sstigmataChange);
+
+document.getElementById("svi").addEventListener('change', sviChange);
+
+document.getElementById("shyper").addEventListener('change', shyperChange);
+
+document.getElementById("ska").addEventListener('change', skaChange);
+
+document.getElementById("ms4").addEventListener('change', ms4Change);
+
+document.getElementById("ms5").addEventListener('change', ms5Change);
+
+document.getElementById("ms6").addEventListener('change', ms6Change);
+
+document.getElementById("ws4").addEventListener('change', ws4Change);
+
+document.getElementById("ws5").addEventListener('change', ws5Change);
+
+document.getElementById("ws6").addEventListener('change', ws6Change);
+
+document.getElementById("ws6r").addEventListener('change', ws6rChange);
+
+document.getElementById("aclass").addEventListener('change', aclassChange);
+
+document.getElementById("sclass").addEventListener('change', sclassChange);
+
+document.getElementById("sclasst").addEventListener('change', sclasstChange);
+
 
 // Event Listener for button deprecation
 
@@ -1323,4 +1656,189 @@ function ssfChange(){
 function salChange(){
     let qty = document.getElementById('sal').value
    localStorage.setItem('Inver-Shard - Arclight', qty)
+}
+
+function splChange(){
+    let qty = document.getElementById('spl').value
+   localStorage.setItem('Inver-Shard - Plume', qty)
+}
+
+function sroChange(){
+    let qty = document.getElementById('sro').value
+   localStorage.setItem('Inver-Shard - Rozen', qty)
+}
+
+function scrChange(){
+    let qty = document.getElementById('scr').value
+   localStorage.setItem('Inver-Shard - Crocotta', qty)
+}
+
+function sriChange(){
+    let qty = document.getElementById('sri').value
+   localStorage.setItem('Inver-Shard - Rigor', qty)
+}
+
+function sqiChange(){
+    let qty = document.getElementById('sqi').value
+   localStorage.setItem('Inver-Shard - Qilin', qty)
+}
+
+function spaChange(){
+    let qty = document.getElementById('spa').value
+   localStorage.setItem('Inver-Shard - Pavo', qty)
+}
+
+function slaChange(){
+    let qty = document.getElementById('sla').value
+   localStorage.setItem('Inver-Shard - Laurel', qty)
+}
+
+function sa2Change(){
+    let qty = document.getElementById('sa2').value
+   localStorage.setItem('Inver-Shard - A2', qty)
+}
+
+function s9sChange(){
+    let qty = document.getElementById('s9s').value
+   localStorage.setItem('Inver-Shard - 9S', qty)
+}
+
+function s2bChange(){
+    let qty = document.getElementById('s2b').value
+   localStorage.setItem('Inver-Shard - 2B', qty)
+}
+
+function stempestChange(){
+    let qty = document.getElementById('stempest').value
+   localStorage.setItem('Inver-Shard - Tempest', qty)
+}
+
+function shyChange(){
+    let qty = document.getElementById('shy').value
+   localStorage.setItem('Inver-Shard - Hypnos', qty)
+}
+
+function sglChange(){
+    let qty = document.getElementById('sgl').value
+   localStorage.setItem('Inver-Shard - Glory', qty)
+}
+
+function sxxChange(){
+    let qty = document.getElementById('sxx').value
+   localStorage.setItem('Inver-Shard - XXI', qty)
+}
+
+function sgaChange(){
+    let qty = document.getElementById('sga').value
+   localStorage.setItem('Inver-Shard - Garnet', qty)
+}
+
+function sflChange(){
+    let qty = document.getElementById('sfl').value
+   localStorage.setItem('Inver-Shard - Flambeau', qty)
+}
+
+function sempyreaChange(){
+    let qty = document.getElementById('sempyrea').value
+   localStorage.setItem('Inver-Shard - Empyrea', qty)
+}
+
+function scappucinoChange(){
+    let qty = document.getElementById('scappucino').value
+   localStorage.setItem('Inver-Shard - Capriccio', qty)
+}
+
+function sdrChange(){
+    let qty = document.getElementById('sdr').value
+   localStorage.setItem('Inver-Shard - Dragontoll', qty)
+}
+
+function sstarfarerChange(){
+    let qty = document.getElementById('sstarfarer').value
+   localStorage.setItem('Inver-Shard - Starfarer', qty)
+}
+
+function sstarveilChange(){
+    let qty = document.getElementById('sstarveil').value
+   localStorage.setItem('Inver-Shard - Starveil', qty)
+}
+
+function sscireChange(){
+    let qty = document.getElementById('sscire').value
+   localStorage.setItem('Inver-Shard - Scire', qty)
+}
+
+function sarChange(){
+    let qty = document.getElementById('sar').value
+   localStorage.setItem('Inver-Shard - Arca', qty)
+}
+
+function sstigmataChange(){
+    let qty = document.getElementById('sstigmata').value
+   localStorage.setItem('Inver-Shard - Stigmata', qty)
+}
+
+function sviChange(){
+    let qty = document.getElementById('svi').value
+   localStorage.setItem('Inver-Shard - Vitrum', qty)
+}
+
+function shyperChange(){
+    let qty = document.getElementById('shyper').value
+   localStorage.setItem('Inver-Shard - Hyperreal', qty)
+}
+
+function skaChange(){
+    let qty = document.getElementById('ska').value
+   localStorage.setItem('Inver-Shard - Kaleido', qty)
+}
+
+function ms4Change(){
+    let qty = document.getElementById('ms4').value
+   localStorage.setItem('4* Memory Shard', qty)
+}
+
+function ms5Change(){
+    let qty = document.getElementById('ms5').value
+   localStorage.setItem('5* Memory Shard', qty)
+}
+
+function ms6Change(){
+    let qty = document.getElementById('ms6').value
+   localStorage.setItem('6* Memory Shard', qty)
+}
+
+function ws4Change(){
+    let qty = document.getElementById('ws4').value
+   localStorage.setItem('4* Weapon Shard', qty)
+}
+
+function ws5Change(){
+    let qty = document.getElementById('ws5').value
+   localStorage.setItem('5* Weapon Shard', qty)
+}
+
+function ws6Change(){
+    let qty = document.getElementById('ws6').value
+   localStorage.setItem('6* Weapon Shard', qty)
+}
+
+function ws6rChange(){
+    let qty = document.getElementById('ws6r').value
+   localStorage.setItem('6* Weapon Resonance Shard', qty)
+}
+
+function aclassChange(){
+    let qty = document.getElementById('aclass').value
+   localStorage.setItem('A-Class Inver Material', qty)
+}
+
+function sclassChange(){
+    let qty = document.getElementById('sclass').value
+   localStorage.setItem('S-Class Inver Material', qty)
+}
+
+function sclasstChange(){
+    let qty = document.getElementById('sclasst').value
+   localStorage.setItem('S-Class Transcendent Material', qty)
 }

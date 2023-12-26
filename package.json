@@ -27,7 +27,8 @@
     "passport-google-oauth20": "^2.0.0",
     "passport-local": "^1.0.0",
     "tippy.js": "^6.3.7",
-    "validator": "^13.6.0"
+    "validator": "^13.6.0",
+    "vercel": "^33.0.1"
   },
   "devDependencies": {
     "rollup-plugin-replace": "^2.2.0",

@@ -616,7 +616,7 @@ if (!localStorage.getItem('Inver-Shard - Luminance')) {
     localStorage.setItem('Inver-Shard - Luminance', 0)
 } else {
     // Retrieve Item from Storage
-    document.getElementById('slu').value = localStorage.getItem('Inver-Shard - Luminance');
+    document.getElementById('slumi').value = localStorage.getItem('Inver-Shard - Luminance');
 }
 
 if (!localStorage.getItem('Inver-Shard - Entropy')) {
@@ -1094,7 +1094,7 @@ document.getElementById("sem").addEventListener('change', semChange);
 
 document.getElementById("sca").addEventListener('change', scaChange);
 
-document.getElementById("slu").addEventListener('change', sluChange);
+document.getElementById("slumi").addEventListener('change', slumiChange);
 
 document.getElementById("sen").addEventListener('change', senChange);
 
@@ -1188,7 +1188,7 @@ document.getElementById("sclasst").addEventListener('change', sclasstChange);
 document.getElementById('button').addEventListener('click', popupalert);
 
 function popupalert() {
-    return alert('Currently unavailable.')
+    return alert('Feature currently unavailable.')
 }
 
 // Function for change
@@ -1623,8 +1623,8 @@ function scaChange(){
    localStorage.setItem('Inver-Shard - Crimson Abyss', qty)
 }
 
-function sluChange(){
-    let qty = document.getElementById('slu').value
+function slumiChange(){
+    let qty = document.getElementById('slumi').value
    localStorage.setItem('Inver-Shard - Luminance', qty)
 }
 

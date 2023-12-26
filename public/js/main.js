@@ -514,6 +514,154 @@ if (!localStorage.getItem('Booster Structural Part - Yuan Ye')) {
     document.getElementById('bsyyQ').value = localStorage.getItem('Booster Structural Part - Yuan Ye');
 }
 
+if (!localStorage.getItem('Inver-Shard - Palefire')) {
+    localStorage.setItem('Inver-Shard - Palefire', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('spf').value = localStorage.getItem('Inver-Shard - Palefire');
+}
+
+if (!localStorage.getItem('Inver-Shard - Lotus')) {
+    localStorage.setItem('Inver-Shard - Lotus', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('slo').value = localStorage.getItem('Inver-Shard - Lotus');
+}
+
+if (!localStorage.getItem('Inver-Shard - Eclipse')) {
+    localStorage.setItem('Inver-Shard - Eclipse', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sec').value = localStorage.getItem('Inver-Shard - Eclipse');
+}
+
+if (!localStorage.getItem('Inver-Shard - Zero')) {
+    localStorage.setItem('Inver-Shard - Zero', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sze').value = localStorage.getItem('Inver-Shard - Zero');
+}
+
+if (!localStorage.getItem('Inver-Shard - Storm')) {
+    localStorage.setItem('Inver-Shard - Storm', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sst').value = localStorage.getItem('Inver-Shard - Storm');
+}
+
+if (!localStorage.getItem('Inver-Shard - Bastion')) {
+    localStorage.setItem('Inver-Shard - Bastion', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sba').value = localStorage.getItem('Inver-Shard - Bastion');
+}
+
+if (!localStorage.getItem('Inver-Shard - Blast')) {
+    localStorage.setItem('Inver-Shard - Blast', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sbl').value = localStorage.getItem('Inver-Shard - Blast');
+}
+
+if (!localStorage.getItem('Inver-Shard - Nightblade')) {
+    localStorage.setItem('Inver-Shard - Nightblade', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('snb').value = localStorage.getItem('Inver-Shard - Nightblade');
+}
+
+if (!localStorage.getItem('Inver-Shard - Dawn')) {
+    localStorage.setItem('Inver-Shard - Dawn', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sda').value = localStorage.getItem('Inver-Shard - Dawn');
+}
+
+if (!localStorage.getItem('Inver-Shard - Lux')) {
+    localStorage.setItem('Inver-Shard - Lux', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('slu').value = localStorage.getItem('Inver-Shard - Lux');
+}
+
+if (!localStorage.getItem('Inver-Shard - Pulse')) {
+    localStorage.setItem('Inver-Shard - Pulse', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('spu').value = localStorage.getItem('Inver-Shard - Pulse');
+}
+
+if (!localStorage.getItem('Inver-Shard - Tenebrion')) {
+    localStorage.setItem('Inver-Shard - Tenebrion', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ste').value = localStorage.getItem('Inver-Shard - Tenebrion');
+}
+
+if (!localStorage.getItem('Inver-Shard - Ember')) {
+    localStorage.setItem('Inver-Shard - Ember', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sem').value = localStorage.getItem('Inver-Shard - Ember');
+}
+
+if (!localStorage.getItem('Inver-Shard - Crimson Abyss')) {
+    localStorage.setItem('Inver-Shard - Crimson Abyss', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sca').value = localStorage.getItem('Inver-Shard - Crimson Abyss');
+}
+
+if (!localStorage.getItem('Inver-Shard - Luminance')) {
+    localStorage.setItem('Inver-Shard - Luminance', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('slu').value = localStorage.getItem('Inver-Shard - Luminance');
+}
+
+if (!localStorage.getItem('Inver-Shard - Entropy')) {
+    localStorage.setItem('Inver-Shard - Entropy', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sen').value = localStorage.getItem('Inver-Shard - Entropy');
+}
+
+if (!localStorage.getItem('Inver-Shard - Astral')) {
+    localStorage.setItem('Inver-Shard - Astral', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sas').value = localStorage.getItem('Inver-Shard - Astral');
+}
+
+if (!localStorage.getItem('Inver-Shard - Brilliance')) {
+    localStorage.setItem('Inver-Shard - Brilliance', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sbr').value = localStorage.getItem('Inver-Shard - Brilliance');
+}
+
+if (!localStorage.getItem('Inver-Shard - Veritas')) {
+    localStorage.setItem('Inver-Shard - Veritas', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sve').value = localStorage.getItem('Inver-Shard - Veritas');
+}
+
+if (!localStorage.getItem('Inver-Shard - Silverfang')) {
+    localStorage.setItem('Inver-Shard - Silverfang', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('ssf').value = localStorage.getItem('Inver-Shard - Silverfang');
+}
+
+if (!localStorage.getItem('Inver-Shard - Arclight')) {
+    localStorage.setItem('Inver-Shard - Arclight', 0)
+} else {
+    // Retrieve Item from Storage
+    document.getElementById('sal').value = localStorage.getItem('Inver-Shard - Arclight');
+}
+
+
 // Event Listener for Input
 
 document.getElementById("cogsQ").addEventListener('change', cogsChange);
@@ -662,6 +810,45 @@ document.getElementById("bstonQ").addEventListener('change', tonChange);
 
 document.getElementById("bsyyQ").addEventListener('change', yyChange);
 
+document.getElementById("spf").addEventListener('change', spfChange);
+
+document.getElementById("slo").addEventListener('change', sloChange);
+
+document.getElementById("sec").addEventListener('change', secChange);
+
+document.getElementById("sze").addEventListener('change', szeChange);
+
+document.getElementById("sst").addEventListener('change', sstormChange);
+
+document.getElementById("sba").addEventListener('change', sbaChange);
+
+document.getElementById("snb").addEventListener('change', snbChange);
+
+document.getElementById("sda").addEventListener('change', sdaChange);
+
+document.getElementById("slu").addEventListener('change', sluChange);
+
+document.getElementById("spu").addEventListener('change', spuChange);
+
+document.getElementById("ste").addEventListener('change', steChange);
+
+document.getElementById("sem").addEventListener('change', semChange);
+
+document.getElementById("sca").addEventListener('change', scaChange);
+
+document.getElementById("slu").addEventListener('change', sluChange);
+
+document.getElementById("sen").addEventListener('change', senChange);
+
+document.getElementById("sas").addEventListener('change', sasChange);
+
+document.getElementById("sbr").addEventListener('change', sbrChange);
+
+document.getElementById("sve").addEventListener('change', sveChange);
+
+document.getElementById("ssf").addEventListener('change', ssfChange);
+
+document.getElementById("sal").addEventListener('change', salChange);
 
 // Event Listener for button deprecation
 
@@ -1036,4 +1223,104 @@ function tonChange(){
 function yyChange(){
     let bsyyQ = document.getElementById('bsyyQ').value
    localStorage.setItem('Booster Structural Part - Yuan Ye', bsyyQ)
+}
+
+function spfChange(){
+    let qty = document.getElementById('spf').value
+   localStorage.setItem('Inver-Shard - Palefire', qty)
+}
+
+function sloChange(){
+    let qty = document.getElementById('slo').value
+   localStorage.setItem('Inver-Shard - Lotus', qty)
+}
+
+function secChange(){
+    let qty = document.getElementById('sec').value
+   localStorage.setItem('Inver-Shard - Eclipse', qty)
+}
+
+function szeChange(){
+    let qty = document.getElementById('sze').value
+   localStorage.setItem('Inver-Shard - Zero', qty)
+}
+
+function sstormChange(){
+    let qty = document.getElementById('sst').value
+   localStorage.setItem('Inver-Shard - Storm', qty)
+}
+
+function sbaChange(){
+    let qty = document.getElementById('sba').value
+   localStorage.setItem('Inver-Shard - Bastion', qty)
+}
+
+function snbChange(){
+    let qty = document.getElementById('snb').value
+   localStorage.setItem('Inver-Shard - Nightblade', qty)
+}
+
+function sdaChange(){
+    let qty = document.getElementById('sda').value
+   localStorage.setItem('Inver-Shard - Dawn', qty)
+}
+
+function sluChange(){
+    let qty = document.getElementById('slu').value
+   localStorage.setItem('Inver-Shard - Lux', qty)
+}
+
+function spuChange(){
+    let qty = document.getElementById('spu').value
+   localStorage.setItem('Inver-Shard - Pulse', qty)
+}
+
+function steChange(){
+    let qty = document.getElementById('ste').value
+   localStorage.setItem('Inver-Shard - Tenebrion', qty)
+}
+
+function semChange(){
+    let qty = document.getElementById('sem').value
+   localStorage.setItem('Inver-Shard - Ember', qty)
+}
+
+function scaChange(){
+    let qty = document.getElementById('sca').value
+   localStorage.setItem('Inver-Shard - Crimson Abyss', qty)
+}
+
+function sluChange(){
+    let qty = document.getElementById('slu').value
+   localStorage.setItem('Inver-Shard - Luminance', qty)
+}
+
+function senChange(){
+    let qty = document.getElementById('sen').value
+   localStorage.setItem('Inver-Shard - Entropy', qty)
+}
+
+function sasChange(){
+    let qty = document.getElementById('sas').value
+   localStorage.setItem('Inver-Shard - Astral', qty)
+}
+
+function sbrChange(){
+    let qty = document.getElementById('sbr').value
+   localStorage.setItem('Inver-Shard - Brilliance', qty)
+}
+
+function sveChange(){
+    let qty = document.getElementById('sve').value
+   localStorage.setItem('Inver-Shard - Veritas', qty)
+}
+
+function ssfChange(){
+    let qty = document.getElementById('ssf').value
+   localStorage.setItem('Inver-Shard - Silverfang', qty)
+}
+
+function salChange(){
+    let qty = document.getElementById('sal').value
+   localStorage.setItem('Inver-Shard - Arclight', qty)
 }

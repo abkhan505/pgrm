@@ -21,7 +21,7 @@ connectDB()
 
 // All of these express.whatever are middleware methods we can pull in from Express, app.use just lets us set up middleware functions
 app.set('view engine', 'ejs') // Sets up ejs file for rendering
-app.use(express.static('public')) // Serves static files, anything in public folder is available immediately (CSS/server side JS)
+app.use(express.static(__dirname + '/public')) // Serves static files, anything in public folder is available immediately (CSS/server side JS)
 app.use(express.urlencoded({ extended: true })) // Deals with incoming URL requests
 app.use(express.json()) // Deals with incoming requests with JSON payloads
 app.use(logger('dev')) 
